@@ -215,3 +215,4 @@ graph.png
 # Installation scripts
 install_*.bat
 install_*.sh
+chroma_langchain_db/chroma.sqlite3

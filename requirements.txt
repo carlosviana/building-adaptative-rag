@@ -11,6 +11,7 @@ black
 isort
 pytest
 langchain-chroma
-langchain-tavily==0.1.5
 langchain_aws
 langchain_google_vertexai
+fastapi
+uvicorn

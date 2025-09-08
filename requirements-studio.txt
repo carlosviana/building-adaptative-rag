@@ -1,0 +1,4 @@
+# Dependências específicas para LangGraph Studio
+# Instalar separadamente para evitar conflitos
+langgraph-cli
+langchain-core>=0.1.33,<0.2.0

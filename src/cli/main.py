@@ -1,7 +1,6 @@
-from dotenv import load_dotenv
-from src.workflow.graph import app
+from src.core.workflow.graph import get_workflow
 
-load_dotenv()
+app = get_workflow()
 
 def format_response(result):
   """Extract response from workflow result"""

@@ -1,0 +1,10 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "adaptive_rag": {
+      "path": "src.core.workflow.graph:get_workflow",
+      "description": "Adaptive RAG system that routes queries between vectorstore retrieval and web search"
+    }
+  },
+  "env": ".env"
+}

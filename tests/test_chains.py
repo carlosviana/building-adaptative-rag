@@ -4,11 +4,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-from src.workflow.chains.generation import generation_chain
-from src.workflow.chains.hallucination_grader import (GradeHallucinations, hallucination_grader)
-from src.workflow.chains.retrieval_grader import GradeDocuments, retrieval_grader
-from src.workflow.chains.router import RouteQuery, question_router
-from data.ingestion import retriever
+from src.core.workflow.chains.generation import generation_chain
+from src.core.workflow.chains.hallucination_grader import (GradeHallucinations, hallucination_grader)
+from src.core.workflow.chains.retrieval_grader import GradeDocuments, retrieval_grader
+from src.core.workflow.chains.router import RouteQuery, question_router
+from src.data.ingestion import retriever
 
 
 def test_retrival_grader_answer_yes() -> None:
